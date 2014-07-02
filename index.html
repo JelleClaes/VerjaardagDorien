@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Verjaardag Dorien</title>
+	<link rel="stylesheet" href="themes/Jelle.min.css" />
+
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+	<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+</head> 
+<body> 
+<div data-role="page" id="page" style="background-image: url('images/BGG.jpg') !important;background-repeat: no-repeat;background-size: 100% 100%;"  data-theme="a">
+	<div data-role="content">	
+		<div class="ui-grid-b ui-responsive" style="margin-top:70%">
+			<div class="ui-block-a"><a href="#ver1" class="ui-btn ui-shadow ui-corner-all" style="width: 30%;margin-left:35%">Verrassing 1</a></div>
+	    		<div class="ui-block-b"><a class="ui-btn ui-shadow ui-corner-all" style="width: 30%;margin-left:35%" onclick="verr2()">Verrassing 2</a></div>
+		</div>		
+	</div>	
+</div>
+
+<div data-role="page" id="ver1">
+		<div data-role="header">
+    			<a data-icon="back" href="#page" data-transition="slide" data-direction="reverse" data-iconpos="notext"></a>
+		<h1>Opdracht 1</h1>
+  		</div>
+  <div data-role="content">   
+	<p>Wat is de volgende letter in deze reeks? JFMAMJJASON[-?-]</p>
+	<input type="text" id="opd1" maxlength="1" placeholder="" style="text-align: center;"/> 
+  </div>
+</div>
+
+<div data-role="page" id="ver12">
+		<div data-role="header">
+    			<a data-icon="back" href="#ver1" data-transition="slide" data-direction="reverse" data-iconpos="notext"></a>
+		<h1>Opdracht 2</h1>
+  		</div>
+  <div data-role="content">   
+	<p>Cijferreeks: 15 29 56 108 208 </p>
+	<input type="text" id="opd2" maxlength="" placeholder="" style="text-align: center;"/> 
+  </div>
+</div>
+
+<div data-role="page" id="ver13">
+		<div data-role="header">
+    			<a data-icon="back" href="#ver12" data-transition="slide" data-direction="reverse" data-iconpos="notext"></a>
+		<h1>Opdracht 3</h1>
+  		</div>
+  <div data-role="content">   
+	<p>Een vader is vier keer zo oud als zijn zoon. Over 20 jaar is de vader twee keer zo oud als zijn zoon. Hoe oud zijn de vader en zoon nu?</p>
+	<input type="text" id="opd3z" maxlength="" placeholder="Zoon" style="text-align: center;"/> 
+	<input type="text" id="opd3v" maxlength="" placeholder="Vader" style="text-align: center;"/> 
+  </div>
+</div>
+
+<div data-role="page" id="ver14">
+		<div data-role="header">
+    			<a data-icon="back" href="#ver13" data-transition="slide" data-direction="reverse" data-iconpos="notext"></a>
+		<h1>Opdracht 4</h1>
+  		</div>
+  <div data-role="content">   
+	<p>Cijferreeks: 13 -21 34 -55 89 </p>
+	<input type="text" id="opd4" maxlength="" placeholder="" style="text-align: center;"/> 
+  </div>
+</div>
+
+<div data-role="page" id="ver15">
+		<div data-role="header">
+    			<a data-icon="back" href="#ver14" data-transition="slide" data-direction="reverse" data-iconpos="notext"></a>
+		<h1>Opdracht 5</h1>
+  		</div>
+  <div data-role="content">   
+	<p>Het product van twee gehele getallen is 64. De som van die getallen is 20. Wat is het verschil van die getallen?</p>
+	<input type="text" id="opd5" maxlength="" placeholder="" style="text-align: center;"/> 
+  </div>
+</div>
+
+<div data-role="page" id="ver16">
+		<div data-role="header">
+    			<a data-icon="back" href="#ver15" data-transition="slide" data-direction="reverse" data-iconpos="notext"></a>
+		<h1>Opdracht 6</h1>
+  		</div>
+  <div data-role="content">   
+	<p>Cijferreeks: 52 56 48 64 32 </p>
+	<input type="text" id="opd6" maxlength="" placeholder="" style="text-align: center;"/> 
+  </div>
+</div>
+
+<div data-role="page" id="ver17">
+		<div data-role="header">
+    			<a data-icon="back" href="#ver16" data-transition="slide" data-direction="reverse" data-iconpos="notext"></a>
+		<h1>Opdracht 7</h1>
+  		</div>
+  <div data-role="content">   
+	<p>Er staan 120 stoelen op een rij. Een aantal van de stoelen is al bezet, op zo’n manier dat als er nog iemand bijkomt, deze persoon alleen op een stoel kan gaan zitten waarnaast al iemand zit.
+		 Wat is het kleinste aantal bezette stoelen waarbij dit kan gebeuren?</p>
+	<input type="text" id="opd7" maxlength="" placeholder="" style="text-align: center;"/> 
+  </div>
+</div>
+
+<div data-role="page" id="ver18">
+		<div data-role="header">
+    			<a data-icon="back" href="#ver17" data-transition="slide" data-direction="reverse" data-iconpos="notext"></a>
+		<h1>Opdracht 8</h1>
+  		</div>
+  <div data-role="content">   
+	<p>Cijferreeks: 3 8 23 68 203 </p>
+	<input type="text" id="opd8" maxlength="" placeholder="" style="text-align: center;"/> 
+  </div>
+</div>
+
+<div data-role="page" id="ver19">
+		<div data-role="header">
+    			<a data-icon="back" href="#ver18" data-transition="slide" data-direction="reverse" data-iconpos="notext"></a>
+		<h1>Opdracht 9</h1>
+  		</div>
+  <div data-role="content">   
+	<p>Cijferreeks: 99 18 36 9 18 </p>
+	<input type="text" id="opd9" maxlength="" placeholder="" style="text-align: center;"/> 
+  </div>
+</div>
+
+<div data-role="page" id="ver110">
+		<div data-role="header">
+    			<a data-icon="back" href="#ver19" data-transition="slide" data-direction="reverse" data-iconpos="notext"></a>
+		<h1>Opdracht 10</h1>
+  		</div>
+  <div data-role="content">   
+	<p>Cijferreeks: 144 73 14 8 236 </p>
+	<input type="text" id="opd10" maxlength="" placeholder="" style="text-align: center;"/> 
+  </div>
+</div>
+
+<div data-role="page" id="ver1Won" style="background-image: url('images/CL.jpg') !important;background-repeat: no-repeat;background-size: 100% 100%;">
+  <div data-role="content">   
+  </div>
+</div>
+
+<div data-role="page" id="ver2">
+		<div data-role="header">
+    			<a data-icon="back" href="#page" data-transition="slide" data-direction="reverse" data-iconpos="notext"></a>
+		<h1>Proficiat!</h1>
+  		</div>
+  <div data-role="content"> 
+  	<input type="text" id="zanger" maxlength="12" placeholder="Wie is je favoriete zanger?" style="text-align: center;"/> 
+  </div>
+</div>
+
+<div data-role="page" id="ver22" style="background-image: url('images/BP.jpg') !important;background-repeat: no-repeat;background-size: 100% 100%;">
+  <div data-role="content"> 
+  
+  </div>
+</div>
+
+
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+function verr2() {
+	var x = new Date(2014, 6, 1,8, 0, 0);
+	var today = new Date();
+	
+	if (x > today) {
+ 	  alert("Het is nog niet je verjaardag!");	
+	} else {
+	  $.mobile.changePage("#ver2", { transition: 'slide'});
+	}
+};
+
+$('#opd1').keyup(function(event) {
+   if($('#opd1').val().length == 1) {    	      
+     if($('#opd1').val().toUpperCase() == 'D') {	
+		$.mobile.changePage("#ver12", { transition: 'slide'});
+	 }	 
+   }   
+});
+
+$('#opd2').keyup(function(event) {
+   if($('#opd2').val().length == 3) {    	      
+     if($('#opd2').val().toUpperCase() == '400') {	
+		$.mobile.changePage("#ver13", { transition: 'slide'});
+	 }	 
+   }   
+});
+
+$('#opd3z').keyup(function(event) {
+   if($('#opd3z').val().length == 2 && $('#opd3v').val().length == 2) {    	      
+     if($('#opd3z').val().toUpperCase() == '10' && $('#opd3v').val().toUpperCase() == '40') {	
+		$.mobile.changePage("#ver14", { transition: 'slide'});
+	 }	 
+   }   
+});
+$('#opd3v').keyup(function(event) {
+   if($('#opd3v').val().length == 2 && $('#opd3z').val().length == 2 ) {    	      
+     if($('#opd3v').val().toUpperCase() == '40' && $('#opd3z').val().toUpperCase() == '10') {	
+		$.mobile.changePage("#ver14", { transition: 'slide'});
+	 }	 
+   }   
+});
+
+$('#opd4').keyup(function(event) {
+   if($('#opd4').val().length == 4) {    	      
+     if($('#opd4').val().toUpperCase() == '-144') {	
+		$.mobile.changePage("#ver15", { transition: 'slide'});
+	 }	 
+   }   
+});
+
+$('#opd5').keyup(function(event) {
+   if($('#opd5').val().length == 2) {    	      
+     if($('#opd5').val().toUpperCase() == '12') {	
+		$.mobile.changePage("#ver16", { transition: 'slide'});
+	 }	 
+   }   
+});
+
+
+$('#opd6').keyup(function(event) {
+   if($('#opd6').val().length == 2) {    	      
+     if($('#opd6').val().toUpperCase() == '96') {	
+		$.mobile.changePage("#ver17", { transition: 'slide'});
+	 }	 
+   }   
+});
+
+$('#opd7').keyup(function(event) {
+   if($('#opd7').val().length == 2) {    	      
+     if($('#opd7').val().toUpperCase() == '40') {	
+		$.mobile.changePage("#ver18", { transition: 'slide'});
+	 }	 
+   }   
+});
+
+$('#opd8').keyup(function(event) {
+   if($('#opd8').val().length == 3) {    	      
+     if($('#opd8').val().toUpperCase() == '608') {	
+		$.mobile.changePage("#ver19", { transition: 'slide'});
+	 }	 
+   }   
+});
+
+$('#opd9').keyup(function(event) {
+   if($('#opd9').val().length == 1) {    	      
+     if($('#opd9').val().toUpperCase() == '9') {	
+		$.mobile.changePage("#ver110", { transition: 'slide'});
+	 }	 
+   }   
+});
+
+$('#opd10').keyup(function(event) {
+   if($('#opd10').val().length == 3) {    	      
+     if($('#opd10').val().toUpperCase() == '119') {	
+		$.mobile.changePage("#ver1Won", { transition: 'slide'});
+	 }	 
+   }   
+});
+
+$('#zanger').keyup(function(event) {
+   if($('#zanger').val().length == 12) {    	      
+     if($('#zanger').val().toUpperCase() == 'BART PEETERS') {	
+		$.mobile.changePage("#ver22", { transition: 'slide'});
+	 }	 
+   }   
+});
+
+document.addEventListener("backbutton", function(e){
+    if($.mobile.activePage.is('#page')){
+	e.preventDefault();
+        navigator.app.exitApp(); 
+    }
+    else {
+        navigator.app.backHistory()
+    }
+}, false);
+
+</script>
