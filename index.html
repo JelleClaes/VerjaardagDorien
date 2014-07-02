@@ -13,12 +13,11 @@
 
 	<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
 
-	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 </head> 
 <body> 
-<div data-role="page" id="page" style="background-image: url('images/BG.jpg') !important;background-repeat: no-repeat;background-size: 100% 100%;"  data-theme="a">
+<div data-role="page" id="page" style="background-image: url('images/BGG.jpg') !important;background-repeat: no-repeat;background-size: 100% 100%;"  data-theme="a">
 	<div data-role="content">	
-		<div class="ui-grid-b ui-responsive" style="margin-top:70%">
+		<div class="ui-grid-b ui-responsive">
 			<div class="ui-block-a"><a href="#ver1" class="ui-btn ui-shadow ui-corner-all" style="width: 50%;margin-left:20%">Verrassing 1</a></div>
 	    		<div class="ui-block-b"><a class="ui-btn ui-shadow ui-corner-all" style="width: 50%;margin-left:20%" onclick="verr2()">Verrassing 2</a></div>
 		</div>		
@@ -168,7 +167,6 @@
 function verr2() {
 	var x = new Date(2014, 6, 8,8, 0, 0);
 	var today = new Date();
-	
 	if (x > today) {
  	  alert("Het is nog niet je verjaardag!");	
 	} else {
@@ -277,7 +275,7 @@ document.addEventListener("backbutton", function(e){
 	e.preventDefault();
         navigator.app.exitApp(); 
     }
-    else if ($.mobile.activePage.is('#ver1Won'){
+    else if ($.mobile.activePage.is('#ver1Won')){
 	$.mobile.changePage("#page", { transition: 'slide', reverse: true});
     }
     else {
